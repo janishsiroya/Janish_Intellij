@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/Selenium jarsss/lib" />
+      <root url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/Selenium jarsss/lib" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" recursive="false" />
+  </library>
+</component>
