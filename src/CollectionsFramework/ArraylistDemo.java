@@ -14,7 +14,7 @@ public class ArraylistDemo {
         ll.add("A");
         ll.add("B");
         ll.add(5);
-        ArrayList al = new ArrayList(ll); // constructor to convert given collection into equivalnt arraylist
+        ArrayList al = new ArrayList(ll); // constructor to convert given collection into equivalent arraylist
         al.add("A");
         al.add("B");
         al.add("C");

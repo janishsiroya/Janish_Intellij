@@ -12,13 +12,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
  */
 public class Xpath_contains_method {
     public static void main(String args[]){
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Chromedriver\\chromedriver.exe  ");
+        System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Chromedriver\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         WebElement elem;
         driver.get("http://demosite.center/wordpress/wp-login.php");
         elem = driver.findElement(By.xpath("//input[@id = 'user_login']"));
-
         elem.sendKeys("admin");
         elem = driver.findElement(By.xpath("//input[@name='pwd']"));
         elem.sendKeys("demo123");

@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LogDemo {
     public static void main(String args[])
     {
-        Logger logger = Logger.getLogger("LogDemo");
+        Logger logger = Logger.getLogger("LogDemo1");
         PropertyConfigurator.configure("Log4j.properties");
         System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -21,7 +21,7 @@ public class LogDemo {
         logger.info("Facebook launched successfully");
         WebElement elem = driver.findElement(By.id("email"));
         elem.sendKeys("janishsiroya@yahoo.com");
-        logger.info("Webelement not found");
+        logger.info("Webelement found");
 
 
         System.exit(0);

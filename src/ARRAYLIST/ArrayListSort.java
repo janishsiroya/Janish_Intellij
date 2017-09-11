@@ -1,4 +1,4 @@
-package CollectionsFramework;
+package ARRAYLIST;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,7 +15,7 @@ public class ArrayListSort {
         al.add(4);
         al.add(100);
         al.add(25);
-        al.sort(Integer::compareTo);
+        //System.out.println(al.sort(Integer::compareTo));
         System.out.println(al);
 
         Collections.sort(al);

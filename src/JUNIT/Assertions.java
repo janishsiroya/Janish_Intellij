@@ -23,7 +23,7 @@ public class Assertions {
         driver.get("https://www.facebook.com");
         driver.manage().window().maximize();
         Assert.assertEquals("Facebook - Log In or Sign Up", driver.getTitle());
-        //Assert.assertFalse("Hello", true);
+
         Assert.assertTrue(true);
         //WebElement elem = driver.findElement(By.id("email"));
         //elem = driver.findElement(By.xpath("//input[@name= 'firstname']//preceding::input[1]"));
@@ -32,13 +32,8 @@ public class Assertions {
         System.out.println(b);
         File fs = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(fs, new File("C:\\Janish\\janish" + ".png"));
-        //elem.sendKeys("janish");
-
         System.out.println(driver.getCurrentUrl());
-        //driver.close();
         driver.quit();
         System.exit(0);
     }
-
-
 }

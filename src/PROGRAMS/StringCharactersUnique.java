@@ -19,6 +19,6 @@ public class StringCharactersUnique {
         return true;
     }
     public static void main(String args[]) {
-        System.out.println(uniqueCharacter("janiash"));
+        System.out.println(uniqueCharacter("janish"));
     }
 }

@@ -26,7 +26,7 @@ public class LaunchApplication {
 //        System.out.println(allWindow);
         System.out.println(driver.getCurrentUrl());
         driver.close();
-        driver.quit();
+        //driver.quit();
         System.exit(0);
     }
 }

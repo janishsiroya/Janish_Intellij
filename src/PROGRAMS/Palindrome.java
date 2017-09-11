@@ -1,7 +1,5 @@
 package PROGRAMS;
-
 import java.util.Scanner;
-
 /**
  * Created by janish on 4/21/2017.
  */

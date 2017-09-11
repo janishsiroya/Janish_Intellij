@@ -12,11 +12,23 @@ import javax.swing.text.html.HTML;
 public class HeadlessBrowser {
     public static void main(String args[]){
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Chromedriver\\chromedriver.exe");
-        HtmlUnitDriver driver = new HtmlUnitDriver(true);
-        driver.setJavascriptEnabled(false);
-        driver.get("https://www.google.com");
-        System.out.println(driver.getTitle());
+        // Creating a new instance of the HTML unit driver
+        WebDriver driver= new HtmlUnitDriver();
+        driver.get("http://www.google.com");
 
+//         //Locate the searchbox using its name
+//        WebElement element = driver.findElement(By.id("lst-ib"));
+//
+//         //Enter a search query
+//        element.sendKeys("Guru99");
+//
+//         //Submit the query. Webdriver searches for the form using the text input element automatically
+//         //No need to locate/find the submit button
+//        element.submit();
+//
+//         //This code will print the page title
+//        System.out.println("Page title is: " + driver.getTitle());
+//
+//        driver.quit();
     }
 }

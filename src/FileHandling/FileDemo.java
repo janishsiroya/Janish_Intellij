@@ -1,6 +1,7 @@
 package FileHandling;
 
 import PROGRAMS.FibonacciRecursion;
+import org.apache.xpath.SourceTree;
 
 import java.io.*;
 
@@ -13,12 +14,12 @@ public class FileDemo {
 
         FileOutputStream fos = new FileOutputStream(f);
         DataOutputStream dos = new DataOutputStream(fos);
-        dos.writeUTF("Hello world");
+        dos.writeUTF("Hello jan");
 
         FileInputStream fis = new FileInputStream(f);
         DataInputStream dis = new DataInputStream(fis);
         String s = dis.readUTF();
-
+        //System.out.println(dis);
         System.out.println(s);
     }
 }

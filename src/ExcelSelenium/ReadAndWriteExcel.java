@@ -22,6 +22,8 @@ public class ReadAndWriteExcel {
             // getRow() specify which row we want to read.
             // and getCell() specify which column to read.
             // getStringCellValue() specify that we are reading String data.
+            String s =sh1.getRow(0).getCell(0).getStringCellValue();
+            System.out.println(s);
             System.out.println(sh1.getRow(0).getCell(0).getStringCellValue());
             System.out.println(sh1.getRow(0).getCell(1).getStringCellValue());
             System.out.println(sh1.getRow(1).getCell(0).getStringCellValue());

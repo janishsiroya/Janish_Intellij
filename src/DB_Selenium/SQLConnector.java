@@ -1,7 +1,5 @@
 package DB_Selenium;
-
 import java.sql.*;
-
 /**
  * Created by janish on 7/4/2017.
  */
@@ -14,7 +12,7 @@ public class SQLConnector {
         //Database Password
         String password = "janish1";
         //Query to Execute
-        String query = "select *  from login;";
+        String query = "select * from login where Userid = 1;";
         //Load mysql jdbc driver
         Class.forName("com.mysql.jdbc.Driver");
         //Create Connection to DB

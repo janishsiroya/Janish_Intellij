@@ -8,7 +8,7 @@ import java.util.*;
 public class TreeSetDemo {
     public static void main(String args[]) {
         ArrayList al = new ArrayList();
-        for (int i=0; i<5; i++)
+        for (int i=10; i>0; i--)
             al.add(i);
         //TreeSet<Integer> t = new TreeSet<Integer>(); // default
         //TreeSet t = new TreeSet(al); //creating equivalent treeset for any collection

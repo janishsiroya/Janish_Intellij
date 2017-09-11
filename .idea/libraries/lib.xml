@@ -5,8 +5,30 @@
       <root url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/JDBC/mysql-connector-java-5.1.18-bin.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-examples-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-excelant-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-ooxml-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-ooxml-schemas-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/poi-scratchpad-3.16.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/ooxml-lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/ooxml-lib/curvesapi-1.04.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/jxl-2.6.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javax.mail-api-1.5.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/lib/dsn.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/lib/imap.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/lib/mailapi.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/lib/pop3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/lib/smtp.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/javamail-1.4.5/mail.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/htmlunit-driver-2.27-with-dependencies.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Selenium jarsss/phantomjsdriver-1.0.4.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/Selenium jarsss/poi-bin-3.16-20170419/poi-3.16/docs/apidocs" />
+    </JAVADOC>
     <SOURCES />
     <jarDirectory url="file://$USER_HOME$/Desktop/Selenium jarsss/lib" recursive="false" />
     <jarDirectory url="jar://$USER_HOME$/Desktop/org.apache.logging.log4j-1.2.17.jar/org.apache.logging.log4j-1.2.17.jar!/" recursive="false" />
